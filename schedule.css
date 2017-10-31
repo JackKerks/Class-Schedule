@@ -1,0 +1,27 @@
+body	{
+	background: #DCDCDC;
+	text-align: center;
+}
+
+th {
+	border: 1px solid black;
+	padding: 10px;
+	font-family:  'Playfair Display';
+	font-size: 20px;
+}
+
+td	{
+	border: 1px solid black;
+	padding: 10px;
+	font-family:  'Playfair Display';
+	font-size: 15px;
+	
+}
+.title{
+	color: 	#A52A2A;
+	text-align: center;
+}
+
+.empty	{
+	border: none;
+}
