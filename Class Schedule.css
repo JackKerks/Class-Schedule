@@ -1,0 +1,49 @@
+/*This will change the main parts of the page */
+body	{
+	background: #DCDCDC;
+	text-align: center;
+	padding: 10px;
+}
+
+/*This wil change the table headings of the page */
+th {
+	border: 1px solid black;
+	padding: 10px;
+	font-family:  'Playfair Display';
+	font-size: 20px;
+}
+
+/*This will change the table data of the page */
+td	{
+	border: 1px solid black;
+	padding: 10px;
+	font-family:  'Playfair Display';
+	font-size: 15px;
+	
+}
+
+/*This will change the title div. This is the main heading of the page */
+.title{
+	color: 	#A52A2A;
+	text-align: center;
+}
+
+/* This will make the top left box dissapear to make the schedule look nice. */
+.empty	{
+	border: none;
+}
+
+.nav{
+	padding-right: 1200px;
+	padding-top: 20px;
+}
+
+td:hover	{
+	background: white;
+}
+
+input[type=text] {
+    width: 150px;
+	background: white;
+	border: 1.5px solid black;
+}
