@@ -19,9 +19,10 @@
 	<p id="demo" onclick="Color()">Click me to add some style!!!!!!!!!!</p>
 	
 	<form>
-		<input id="jaques" type="text" name="search" value="Math" placeholder="Bro, reach smt here...">
+		<input id="jaques" type="text" name="search" placeholder="Bro, reach smt here...">
 	</form>
-
+	
+<button onclick="nameChange()">Try it</button>
 	
 		<h1 class="title">My Class Schedule</h1>
 		<table>
@@ -44,33 +45,33 @@
 			<!-- These are the first periods of the schedule -->
 				<tr>
 					<td><strong>Period 1<br />8:20-9:20</strong></td>
-					<td class="f">French<br />Mr. Gone<br />360</td>
-					<td class="p">PE<br />Mr. Beast<br />Gym</td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
-					<td class="r">Religion<br />Mr.Right<br />150</td>
-					<td class="p">PE<br />Mr. Beast<br />Gym</td>
-					<td class="c">CompProg<br />Mr.Socca<br />CompLab</td>
-					<td>Math<br />Mr.Broncs<br />205</td>
-					<td>Science<br />Dr.Einstein<br />266</td>
+					<td class="French">French<br />Mr. Gone<br />360</td>
+					<td class="PE">PE<br />Mr. Beast<br />Gym</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
+					<td class="Religion">Religion<br />Mr.Right<br />150</td>
+					<td class="PE">PE<br />Mr. Beast<br />Gym</td>
+					<td class="CompProg">CompProg<br />Mr.Socca<br />CompLab</td>
+					<td class="Math">Math<br />Mr.Broncs<br />205</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
 					<td><br /><br /></td>
-					<td>Science<br />Dr.Einstein<br />266</td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
 				</tr>
 			
 			<!-- These are the second periods of the schedule -->
 				<tr>
 					<td><strong>Period 2<br />9:25-10:25</strong></td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
-					<td>Architecture<br />Ms. Artsy<br />277</td>
-					<td>Science<br />Dr.Einstein<br />266</td>
-					<td class="c">CompProg<br />Mr.Socca<br />CompLab</td>
-					<td>Architecture<br />Ms. Artsy<br />277</td>
-					<td>Science<br />Dr.Einstein<br />266</td>
-					<td class="f">French<br />Mr. Gone<br />360</td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
-					<td class="c">CompProg<br />Mr.Socca<br />CompLab</td>
-					<td class="c">CompProg<br />Mr.Socca<br />CompLab</td>
-					<td class="c">CompProg<br />Mr.Socca<br />CompLab</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
+					<td class="Architecture">Architecture<br />Ms. Artsy<br />277</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
+					<td class="CompProg">CompProg<br />Mr.Socca<br />CompLab</td>
+					<td class="Architecture">Architecture<br />Ms. Artsy<br />277</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
+					<td class="French">French<br />Mr. Gone<br />360</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
+					<td class="CompProg">CompProg<br />Mr.Socca<br />CompLab</td>
+					<td class="CompProg">CompProg<br />Mr.Socca<br />CompLab</td>
+					<td class="CompProg">CompProg<br />Mr.Socca<br />CompLab</td>
 				</tr>
 			
 			<!-- This is the break of the schedule -->
@@ -94,17 +95,17 @@
 			<!-- These are the third periods of the schedule -->
 				<tr>
 					<td><strong>Period 3<br />10:40-11:40</strong></td>
-					<td>History<br />Mr.Nucks<br />160</td>
-					<td>Math<br />Mr.Broncs<br />205</td>
-					<td>History<br />Mr.Nucks<br />160</td>
-					<td class="f">French<br />Mr. Gone<br />360</td>
-					<td class="f">French<br />Mr. Gone<br />360</td>
-					<td>Math<br />Mr.Broncs<br />205</td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
-					<td>History<br />Mr.Nucks<br />160</td>
-					<td>Science<br />Dr.Einstein<br />266</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
+					<td class="Math">Math<br />Mr.Broncs<br />205</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
+					<td class="French">French<br />Mr. Gone<br />360</td>
+					<td class="French">French<br />Mr. Gone<br />360</td>
+					<td class="Math">Math<br />Mr.Broncs<br />205</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
 					<td><br /><br /></td>
-					<td>Science<br />Dr.Einstein<br />266</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
 				</tr>
 			
 			<!-- This is the lunch of the schedule -->
@@ -126,48 +127,48 @@
 			<!-- These are the fourth periods of the week -->
 				<tr>
 					<td><strong>Period 4<br />12:30-1:00</strong></td>
-					<td class="c">CompProg<br />Mr.Socca<br />CompLab</td>
-					<td>History<br />Mr.Nucks<br />160</td>
-					<td>HomeRoom<br />Mr.Gone<br />360</td>
-					<td>Speech<br />Mr.Slik<br />210</td>
-					<td>History<br />Mr.Nucks<br />160</td>
-					<td>Architecture<br />Ms. Artsy<br />277</td>
-					<td>L.A.<br />Mr.Dark<br />Auditorium</td>
-					<td>Speech<br />Mr.Slik<br />210</td>
-					<td>Advisors<br />Ms. Artsy<br />277</td>
-					<td>Advisors<br />Ms. Artsy<br />277</td>
-					<td>Advisors<br />Ms. Artsy<br />277</td>
+					<td class="CompProg">CompProg<br />Mr.Socca<br />CompLab</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
+					<td class="HomeRoom">HomeRoom<br />Mr.Gone<br />360</td>
+					<td class="Speech">Speech<br />Mr.Slik<br />210</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
+					<td class="Architecture">Architecture<br />Ms. Artsy<br />277</td>
+					<td class="L.A.">L.A.<br />Mr.Dark<br />Auditorium</td>
+					<td class="Speech">Speech<br />Mr.Slik<br />210</td>
+					<td class="Advisors">Advisors<br />Ms. Artsy<br />277</td>
+					<td class="Advisors">Advisors<br />Ms. Artsy<br />277</td>
+					<td class="Advisors">Advisors<br />Ms. Artsy<br />277</td>
 				</tr>
 			
 			<!-- These are the fifth periods of the week -->
 				<tr>
 					<td><strong>Period 5<br />1:05-2:05</strong></td>
-					<td class="c">CompProg<br />Mr.Socca<br />CompLab</td>
-					<td>Science<br />Dr.Einstein<br />266</td>
-					<td class="f">French<br />Mr. Gone<br />360</td>
-					<td>Science<br />Dr.Einstein<br />266</td>
-					<td class="r">Religion<br />Mr.Right<br />150</td>
-					<td>Architecture<br />Ms. Artsy<br />277</td>
-					<td class="r">Religion<br />Mr.Right<br />150</td>
-					<td>Math<br />Mr.Broncs<br />205</td>
-					<td>History<br />Mr.Nucks<br />160</td>
-					<td>History<br />Mr.Nucks<br />160</td>
-					<td>History<br />Mr.Nucks<br />160</td>
+					<td class="CompProg">CompProg<br />Mr.Socca<br />CompLab</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
+					<td class="French">French<br />Mr. Gone<br />360</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
+					<td class="Religion">Religion<br />Mr.Right<br />150</td>
+					<td class="Architecture">Architecture<br />Ms. Artsy<br />277</td>
+					<td class="Religion">Religion<br />Mr.Right<br />150</td>
+					<td class="Math">Math<br />Mr.Broncs<br />205</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
+					<td class="History">History<br />Mr.Nucks<br />160</td>
 				</tr>
 			
 			<!-- These are the sixth periods of the week -->
 				<tr>
 					<td><strong>Period 6<br />2:10-3:05</strong></td>
-					<td>Math<br />Mr.Broncs<br />205</td>
-					<td class="r">Religion<br />Mr.Right<br />150</td>
-					<td>Math<br />Mr.Broncs<br />205</td>
-					<td>Math<br />Mr.Broncs<br />205</td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
-					<td class="f">French<br />Mr. Gone<br />360</td>
-					<td>Science<br />Dr.Einstein<br />266</td>
-					<td>Architecture<br />Ms. Artsy<br />277</td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
-					<td class="e">English<br />Mr.Slik<br />210</td>
+					<td class="Math">Math<br />Mr.Broncs<br />205</td>
+					<td class="Religion">Religion<br />Mr.Right<br />150</td>
+					<td class="Math">Math<br />Mr.Broncs<br />205</td>
+					<td class="Math">Math<br />Mr.Broncs<br />205</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
+					<td class="French">French<br />Mr. Gone<br />360</td>
+					<td class="Science">Science<br />Dr.Einstein<br />266</td>
+					<td class="Architecture">Architecture<br />Ms. Artsy<br />277</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
+					<td class="English">English<br />Mr.Slik<br />210</td>
 					<td><br /><br /></td>
 				</tr>
 			
