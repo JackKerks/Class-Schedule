@@ -1,20 +1,16 @@
-/* this was some cooooool experiment
 
-function Color() {
-    document.getElementById("demo").style.color = "	#E52B50";
-} 
-*/
 
 function nameChange() {
-    var x = document.getElementsByClassName("English");
+    var x = document.getElementsByClassName("searchbar");
 	for (i=0 ; i<x.length ; i++){
-		x[i].innerHTML = "KEEP IT CLEAN";
+		x[i].style;
 	}
     
+	
 }
 
-var Class = 'document.getElementsByClassName';
-switch (Class) {
+
+switch ('searchbar') {
 	
 	case 'French':
 		console.log('Si tu as une question, lever ta main. Merci pour rester en silence.');
